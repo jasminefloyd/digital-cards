@@ -1,13 +1,14 @@
 // Building out the structure of the card that will display on the page
 import PropTypes from 'prop-types';
 import qrCodePic from '../assets/qr_ph.png'
+import profilePic from '../assets/me-ph.png'
 
 export default function BizCard(props) {
 
 return (
     <>
     <section className='info'>
-        <img src={`./assets/${props.item.cardImg}`} className='profile-pic' />
+        <img src={profilePic} className='profile-pic' />
         <h1 className='name'>{props.item.name}</h1>
         <p className='job-title'>{props.item.title}</p>
         <p className='website'>{props.item.website}</p>
