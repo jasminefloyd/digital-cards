@@ -7,7 +7,7 @@ export default function BizCard(props) {
 return (
     <>
     <section className='info'>
-        <img src={`public/${props.item.cardImg}`} className='profile-pic' />
+        <img src={`./src/assets/${props.item.cardImg}`} className='profile-pic' />
         <h1 className='name'>{props.item.name}</h1>
         <p className='job-title'>{props.item.title}</p>
         <p className='website'>{props.item.website}</p>
@@ -26,7 +26,7 @@ return (
     </section>
     <section className='qr-code-section'>
         <div className="qr-code">
-            <img src="../src/assets/qr_ph.png" alt="QR Code" />
+            <img src="./src/assets/qr_ph.png" alt="QR Code" />
         </div>
         <p className='qr-text'>{props.item.qrtext}</p>
     </section>
