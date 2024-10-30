@@ -7,7 +7,7 @@ export default [
         website: "jasminefloyd.website",
         emailBTN: "me@me.com",
         linkedinBTN: "https://linkedin.com",
-        about: "I am Product Manager with a particular interest in making amazing things and constantly striving for greatness. I try to keep up with Product Management skills and best practices, and am always looking for new things to learn.",
+        about: "Lorem ipsum odor amet, consectetuer adipiscing elit. Dolor rutrum euismod eros laoreet fermentum congue facilisi. Pretium nunc vestibulum cursus, quis quisque neque at aliquam. Massa aliquam tincidunt maecenas vitae id; id praesent mi natoque. Duis efficitur dapibus vitae rutrum adipiscing erat nisl quisque.",
         interest: "Food expert. Reader. Entrepreneur. Travel geek. Coffee fanatic. Proud Member of the Laker Nation. Music scholar.",
         qrlink: "https://link.com",
         qrtext: "Scan QR Code to Save Contact Card",
