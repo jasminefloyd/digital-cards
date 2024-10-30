@@ -22,25 +22,3 @@ export default function App() {
     </>
   )
 }
-
-
-/*
-
-export default function App() {
-
-  return (
-    <>
-      <div className='container'>
-          <Info />
-          <About />
-          <Interest />
-          <QRcode />
-          <Footer />
-      </div>    
-    </>
-  )
-}
-
-
-
-*/
