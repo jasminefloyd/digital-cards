@@ -13,8 +13,8 @@ return (
         <p className='job-title'>{props.item.title}</p>
         <p className='website'>{props.item.website}</p>
         <div className='connect-btns'>
-            <button className='email-btn' src='${props.item.emailBTN}'>Email</button>
-            <button className='linkedin-btn' src='${props.item.linkedinBTN}'>LinkedIn</button>
+            <button className='email-btn' onclick="location.href='http://www.example.com'" type="button">Email</button>
+            <button className="linkedin-btn" onClick={() => window.location.href = 'http://www.example.com'} type="button">LinkedIn</button>
         </div>
     </section>
     <section className='about-section'>
